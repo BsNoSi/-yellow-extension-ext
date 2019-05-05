@@ -1,0 +1,8 @@
+# Datenstrom Yellow language file
+
+Language: fr
+LanguageDescription: French
+LanguageTranslator: Norbert Simon
+
+ext_noref: <em>Aucune référence - veuillez ajouter !</em>
+ext_add: ouvrir dans une nouvelle fenêtre/onglet
