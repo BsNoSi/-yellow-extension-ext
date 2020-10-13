@@ -6,8 +6,8 @@
 
 
 class YellowExt {
-    const VERSION = "1.1.1";
-    const TYPE = "feature";
+    const VERSION = "1.2";
+    
     public $yellow;         //access to API
     
     // Handle initialisation
@@ -21,10 +21,10 @@ class YellowExt {
         if ($name=="ext") {
 			list($href, $display, $dtitle, $destination) = $this->yellow->toolbox->getTextArgs($text);
 			if (empty($href)) {
-				$output = $this->yellow->text->get("ext_noref");
+				$output = $this->yellow->language->getText("ext_noref");
 			}
 			else {		
-				$output = "<a class=\"cext\" href=\"".$href."\" title=\"".($dtitle?:$href)." ".$this->yellow->text->get("ext_add")."\"target=\"".($destination?:"_blank")."\">".($display?:$href)."</a>";
+				$output = "<a class=\"cext\" href=\"".$href."\" title=\"".($dtitle?:$href)." ".$this->yellow->language->getText("ext_add")."\"target=\"".($destination?:"_blank")."\">".($display?:$href)."</a>";
 			}
 			return $output;
 		}   
