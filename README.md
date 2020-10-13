@@ -1,6 +1,6 @@
 # Yellow Extension Ext 
 
-### V 1.1.1 (Requires YELLOW 0.8.4 or higher)
+### V 1.2 (Requires YELLOW 0.8.15 or higher)
 
 Ext creates a link to a new tab/window.
 
@@ -48,9 +48,12 @@ Using all options: `[ext https://datenstrom.se "link to datenstrom" "Creators Ho
 
 ## History
 
-2019-05-05, v1.1.0: Initial GitHub-Release
+2020-10-13, v1.2: Necessary changes to meet Yellow API changes
 
 2019-12-29, v1.1.1: Class added
+
+2019-05-05, v1.1.0: Initial GitHub-Release
+
 
 
 ## Developer
