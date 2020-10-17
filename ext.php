@@ -6,7 +6,7 @@
 
 
 class YellowExt {
-    const VERSION = "1.2";
+    const VERSION = "1.2.1";
     
     public $yellow;         //access to API
     
@@ -19,7 +19,7 @@ class YellowExt {
     public function onParseContentShortcut($page, $name, $text, $type) {
 		$output = null;
         if ($name=="ext") {
-			list($href, $display, $dtitle, $destination) = $this->yellow->toolbox->getTextArgs($text);
+			list($href, $display, $dtitle, $destination) = $this->yellow->toolbox->getTextArguments($text);
 			if (empty($href)) {
 				$output = $this->yellow->language->getText("ext_noref");
 			}
