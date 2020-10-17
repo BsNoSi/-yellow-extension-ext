@@ -1,8 +1,0 @@
-# Datenstrom Yellow language file
-
-Language: en
-LanguageDescription: English
-LanguageTranslator: Norbert Simon
-
-ext_noref: <em>No href entry – add it!</em>
-ext_add: open in new window/tab
