@@ -1,0 +1,13 @@
+# ext extension, https://github.com/BsNoSi/yellow-extension-ext
+
+Language: de
+ext_noref: <em>Keine Referenz – bitte ergänzen!</em>
+ext_add: in neuem Fenster/Reiter öffnen
+
+Language: en
+ext_noref: <em>No href entry – add it!</em>
+ext_add: open in new window/tab
+
+Language: fr
+ext_noref: <em>Aucune référence - veuillez ajouter !</em>
+ext_add: ouvrir dans une nouvelle fenêtre/onglet
