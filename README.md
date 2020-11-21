@@ -1,8 +1,8 @@
 # Yellow Extension Ext 
 
-Version 1.2.1
+Version 1.2.2
 
-> Tested with core version 0.8.23
+> Tested with Version 0.8.33 / Release 0.8.16 of Yellow
 
 ## Application
 
@@ -45,6 +45,8 @@ Minimum: `[ext https://datenstrom.se]`
 Using all options: `[ext https://datenstrom.se "link to datenstrom" "Creators Homepage of YELLOW" "yellow"]`
 
 ## History
+
+2020-11-21: Alignment to install changes
 
 2020-10-17: v1.2.1: API changes applied.
 
